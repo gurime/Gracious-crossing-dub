@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    background-color: #1d3e66;
+    }
+    
+
+        
+    
+    
+    .logo{
+    margin: auto;
+    
+    }
+    
+    .logo img{
+        height: 36px;
+        transform: translateY(3px);
+        
+    }
+    
+    .navlinks {
+    margin: auto;
+    padding: 0;
+    }
+    .navlinks li {
+    display: inline-block;
+    list-style-type: none;
+    }
+    .navlinks a {
+    margin: 0px 14px;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+
+    @media(max-width:768px){
+        .navbar{
+        flex-direction: column;
+        }
+        
+        .navlinks a{
+        font-size:10px;
+        }
+        }
+    

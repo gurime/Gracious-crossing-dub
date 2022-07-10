@@ -1,0 +1,199 @@
+.help-container{
+    display: flex;
+    place-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    }
+    
+    .hero-help{
+    background:url("../../assets/img/help-bg.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    display: grid;
+    }
+    
+    .help-headline-text{
+    display: grid;
+    place-items: center;
+    }
+    
+    .help-headline-text h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    border-bottom: solid 1px;
+    line-height: 60px;
+    }
+    
+    form{
+    display: grid;
+    margin: auto;
+    }
+    
+    .input-box{
+    display: flex;
+    width: 400px;
+    }
+
+
+    .input-box input{
+        height: 50px;
+        width: 100%;
+        padding: 7px 10px;
+        font-size: 18px;
+        border: solid #095fc7 1px;
+        outline: none;
+        }
+        
+        .input-box button{
+        border-width:0 ;
+        padding: 7px;
+        cursor: pointer;
+        }
+        
+        .input-box img{
+        padding: 9px;
+        height: 30px;
+        }
+        
+        
+        .renter{
+        display: grid;
+        place-items: center;
+        margin: 10px auto;
+        width: 400px;
+        border: solid 1px #095fc7;
+        }
+        
+        .renter p{
+        width: 338px;
+        text-align: center;
+        line-height: 27px;
+        }
+        
+        .renter a{
+        text-decoration: none;
+        line-height: 30px;
+        }
+        
+        .faq-container{
+        display: grid;
+        border-top: solid 1px gray;
+        place-items: center;
+        margin-bottom: 60px;
+        border-bottom: solid 1px gray;
+        }
+        
+        .faq-title{
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: bold;}
+        
+        .faq-box{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        }
+        
+        li::marker{
+        color: #095fc7;
+        font-size: 18px;
+        }
+        
+        .faq-box li{
+        margin-bottom: 20px;
+        }
+        
+        .faq-box a{
+        text-decoration: none;
+        font-size: 16px;
+        }
+        
+        .faq-renter-title h1{
+        font-size: 16px;
+        }
+        
+        .help-listing-box{
+        background: linear-gradient(#aeaeae80, #00000080),url("../../assets/img/help-bgg.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 700px;
+        margin: auto;
+        }
+        
+        
+        
+        .help-listing-title{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+        }
+
+        .help-listing-title p{
+            line-height: 28px;
+            }
+            
+            
+            
+            .help-listing-title button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color: #095fc7;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 13px;
+            }
+            
+              .help-listing-title a{
+                  text-decoration: none;
+                  color: #fff;
+              }
+
+
+
+
+
+@media(max-width:768px){
+    .help-listing-box{
+        width: auto;
+    }
+}
+
+
+    
+    @media(max-width:500px){
+    
+    .input-box{
+    width: 100%;
+    }
+    .input-box input{
+    width: 100%;
+    }
+    }
+    
+   
+    
+    @media(max-width:500px){
+    
+    
+        .help-listing-box{
+            width: 100%;
+            text-align: center;
+        }
+    
+        .help-listing-box p{
+            font-size: 16px;
+        }
+    
+    }
+    
+    
+    
+   

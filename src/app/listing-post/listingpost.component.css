@@ -1,0 +1,332 @@
+.manage-hero{
+    background:linear-gradient(#00000080, #00000080), 
+    url("../../assets/img/list-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    width: 1600px;
+    height: 600px;
+
+
+    margin: auto;
+    margin-top: 2%;
+    padding-bottom: 3rem;
+    }
+        
+ 
+    .manage-hero-box{
+    text-align:center;
+    box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+width: 63%;
+margin: auto;
+
+border-radius: 10px;
+    background-color: #fff;
+   
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;    }
+    
+    .manage-hero-text{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+
+    }
+    
+    .manage-hero-subtitle{
+   
+    margin: 2rem auto;
+   
+    font-size: 18px;
+    line-height: 24px;
+    }
+    
+    .manage-property-button{
+    background: linear-gradient(90deg, #07b9f5 35%, #00c8ff 100%);
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 14px;
+    border-radius: 7px;
+    }
+
+
+     .address-box form{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        margin: auto;
+        width: 50%;
+     }
+
+     .address-box input{
+        
+        width: 100%;
+        margin: 20px 0;
+        padding: 9px 16px;
+        background-color: rgb(246, 246, 250);
+        border: 1px solid rgb(209, 209, 213);
+        border-radius: 4px;
+        box-sizing: border-box;
+        caret-color: rgb(0, 106, 255);
+        cursor: text;
+        outline: none;
+        box-shadow: none;
+        color: rgb(42, 42, 51);
+       
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        height: auto;
+     }
+
+ 
+
+     #listbtn{
+        background-color: #006aff;
+    border-color: #006aff;
+ color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+  
+    align-items: center;
+    
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+   
+    padding: 9px 16px;
+    margin: 0px;
+
+    outline: none;
+    box-shadow: none;
+    width: auto;
+    position: relative;
+  
+   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: auto;
+     }
+
+     .list-container{
+        
+        box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+        
+        background-color: #fff;
+
+     }
+
+     .list-title{
+        text-align: center;
+     }
+
+
+     .tagline-title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 50px;}
+        
+        .tagline-subtitle{
+        text-align: center;
+        font-size: 1.375rem;
+        line-height: 1.375rem;
+        }
+        
+        .tagline-header{
+
+        width: 50vw;
+        height: 50vh;
+        }
+        
+        
+        
+        .tagline-header1{
+       
+        padding: 0 50px;
+        }
+        
+        .tagline-header1p{
+        padding: 0 50px;
+        font-size: 24px;
+        width: 45%;
+        }
+        
+        .tagline-header1a{
+            font-size: 24px;
+            
+        padding: 0 50px;
+        text-decoration: none;
+        color: #6d6df8;
+        }
+            
+        
+        
+        .card{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        margin:auto;
+        place-items: center;
+        place-content: center;
+        }
+        
+        .card-img{
+        background: url("../../assets/img/list-map.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        width: 50%;
+       height: 100%;
+        }
+        .card-img1{
+        background: url("../../assets/img/tenant.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        width: 50%;
+      height: 100%;
+        }
+        .card-img2{
+        background: url("../../assets/img/list-prop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        width: 50%;
+        height: 100%;
+        }
+        
+        .card-img3{
+        background: url("../../assets/img/living-list.jpg");        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        width: 50%;
+        height: 100%;
+        }
+        
+      
+ 
+    @media(max-width:1620px){
+        .manage-hero{
+            width: auto;
+        }
+     
+        }
+
+        @media(max-width:768px){
+            .manage-hero-box{
+                width: auto;
+                height: auto;
+            }
+
+            .address-box input{
+                width: auto;
+            }
+
+            .manage-hero-text{
+                font-size: 20px;
+            }
+
+          
+        }
+    
+
+        @media(max-width:1400px){
+            #tag1p{
+                font-size: 22px;
+                }
+        }
+        @media(max-width:1200px){
+            #tag1p{
+                font-size: 18px;
+                }
+        }
+
+        @media(max-width:768px){
+
+
+            .tagline-title{
+            font-size: 24px;
+            }
+            
+            
+            #tagline1h{
+                font-size: 10px;
+            width: 100%;
+            }
+            #tagline3h{
+                font-size: 16px;
+            width: 100%;
+            }
+            
+            #tag1p{
+            font-size: 11px;
+            }
+            
+            #tagline1a{
+                font-size: 15px;
+            }
+            #tagline2a{
+                font-size: 24px;
+            }
+            
+            }
+    
+            
+            @media(max-width:600px){
+            
+            .tagline-title{
+            font-size: 19px;
+            }
+            
+            .tagline-subtitle{
+            font-size: 15px;
+            border-bottom: solid 1px;
+            margin-bottom: 20px;
+            }
+            #tagline1h{
+            font-size: 12px;
+            }
+            
+            #tagline2a{
+            font-size: 12px !important;
+            }
+            
+            #tagline3h{
+              font-size: 11px !important;
+              }
+            
+            
+            }
+                @media(max-width:500px){
+
+                    .list-title{
+                        font-size:12px
+                    }
+                    #tag1p{
+                        font-size: 10px;
+                        }
+                        #tagline1a{
+                            font-size: 6px !important;
+                        }
+
+                   
+
+                        #tagline1h{
+                            font-size:6px
+                        }
+
+                        #tagline3h{
+                            font-size: 6px !important;
+                        }
+                }
+            

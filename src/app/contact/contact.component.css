@@ -1,0 +1,85 @@
+
+.contact-bg-nav{
+
+    height:7rem;margin-bottom:2rem}
+    
+
+    
+    .container{
+        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../../assets/img/contact-bg.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        height:600px;
+        margin-bottom:2rem;
+        color:#fff;
+        display: grid;
+        place-items: center;
+    }
+    
+
+    .contact-section{
+    display:grid;
+    place-content: center;
+    place-items:center}
+
+    .contact-headline-text{
+text-align: center;
+font-size: 50px;
+    }
+    .contact-text{
+text-align: center;
+
+    }
+    
+    .contact-address{
+    color:#273cf4; 
+    font-size:clamp(1.5rem,5vw,1rem);margin-bottom:2rem}
+    
+    .contact-box{
+    margin:auto;width:34rem}
+    
+    form{
+    display:grid;
+    place-content: center;
+    padding:2px}
+    
+    form input{
+    height:46px;
+    outline: none;
+    margin-bottom:24px}
+
+    form input:focus{
+        border:solid 1px #273cf4;
+    }
+    
+    form label{
+    color:#273cf4 ;
+    line-height:40px}
+    
+    p a{
+    color:#fff;
+    text-decoration:none}
+    
+    .contact-btn{
+    border-width:0;
+    background:linear-gradient(90deg,#273cf4  0,#235aac 100%);
+    width:211px;
+    height:64px;
+    text-align:center;
+    font-size:24px;
+    outline:0;
+    cursor:pointer;
+    margin:3rem auto}
+    
+    .contact-btn a{
+    color:#fff;
+    text-decoration:none;
+    letter-spacing:3px}
+    
+    
+    
+    @media(max-width:768px){
+        .contact-address{font-size:17px!important}}
+    
+  

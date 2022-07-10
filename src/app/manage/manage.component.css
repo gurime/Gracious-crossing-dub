@@ -1,0 +1,155 @@
+
+
+.manage-hero{
+background:linear-gradient(#00000080, #00000080), 
+url("../../assets/img/bg-manage.jpg");
+background-size: cover;
+background-position: center;
+
+width: 1600px;
+height: 600px;
+display: flex;
+place-content: center;
+place-items: center;
+margin: 0 auto;
+}
+    
+.manage-hero1{
+background:linear-gradient(#00000080, #00000080), 
+url("../../assets/img/manage-bg.jpg");
+background-size: cover;
+background-position: center;
+
+width: 1600px;
+height: 600px;
+display: flex;
+place-content: center;
+place-items: center;
+margin: 0 auto;
+}
+    
+.manage-hero-box{
+text-align:center;
+}
+
+.manage-hero-text{
+color: #fff;
+margin: auto;
+}
+
+.manage-hero-subtitle{
+color: #fff;
+margin: 2rem auto;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+}
+
+.manage-property-button{
+background: linear-gradient(90deg, #07b9f5 35%, #00c8ff 100%);
+color: #fff;
+height: 50px;
+cursor: pointer;
+font-size: 20px;
+outline: none;
+border: none;
+padding: 14px;
+border-radius: 7px;
+}
+
+.promo-wrapper-box{
+margin: auto;
+padding: 50px 0;
+max-width: 1600px;
+}
+
+.promowrapper{
+display: flex;
+width: 100%;
+}
+
+.promobox-1{
+display: inline-block;
+text-align: center;
+max-width: 350px;
+margin: 0 auto 30px;
+}
+
+
+.promotitle-1{
+font-weight: 600;
+text-align: center;
+line-height: 25px;
+padding: 0 54px;
+color: #1b1a1a;
+font-size: 18px;
+}
+
+.promosubtitle-1{
+text-align: center;
+max-width: 100%;
+line-height: 22px;
+margin: 16px auto 0px;
+padding: 0 50px;
+font-size: 16px;
+}
+
+.landlord-container{
+    margin: auto;
+    background-color: #fff;
+    }
+    
+    .landlord-title{
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    }
+    
+    
+    .landlord-subtitle{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px auto;
+    max-width: 600px;
+    padding: 0 50px;
+    text-align: center;
+    }
+
+ 
+
+    @media(min-width:768px){
+        .landlord-title{
+        font-size: 32px;
+        line-height: 42px;}
+        .landlord-subtitle{
+            text-align: center;
+            }
+        }
+
+@media(max-width:1620px){
+    .manage-hero{
+        width: auto;
+    }
+    .manage-hero1{
+        width: auto;
+    }
+    }
+
+
+
+
+
+@media(max-width:768px){
+    .promowrapper{
+        flex-direction: column;
+    }
+    }
+
+    @media(max-width:500px){
+        .input-box{
+            justify-content: center;
+            margin: auto;
+        }
+    }

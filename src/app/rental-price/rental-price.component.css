@@ -1,0 +1,159 @@
+
+.sec-navbar{
+display: flex;
+width: 100%;
+height: 60px;
+place-items: center;
+flex-direction: column;
+margin-bottom: 2rem;
+transform: translateY(10px);
+
+}
+
+.sec-nav-logo{
+
+    margin: auto;
+}
+
+.sec-nav-logo img{
+    height: 34px;
+}
+
+.sec-navlinks {
+margin: auto;
+padding: 0;
+}
+.sec-navlinks li {
+display: inline-block;
+}
+.sec-navlinks a {
+padding: 1rem;
+text-decoration: none;
+color: #000;
+font-size: 20px;
+
+}
+
+.rental-hero{
+background:linear-gradient(#60606080, #60606080), 
+url("../../assets/img/rental-bg.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 600px;
+display: grid;
+place-content: center;
+place-items: center;
+position: relative;
+margin: 0 auto;
+}
+
+.manage-hero-text{
+    color: #fff;
+
+    }
+
+    .rental-estimate-flex{
+display: flex;
+box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+background-color: #fff;
+place-items: center;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+    }
+
+    .rental-hero-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rental-hero-text{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .rental-hero-estimate{
+        text-align: center;
+        
+     
+    }
+    .rental-hero-text-estimate{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .flex-img{
+        margin: auto;
+        height: 500px;
+    }
+
+.hero-form input:focus{
+background-color: #ffffff;
+}
+
+
+
+.hero-form input{
+width: 100%;
+font-size: 18px;
+border-radius: 3px;
+border: none;
+min-height: 70px;
+outline: none;
+padding: 0 20px;
+background-color: #e7e6e3;
+}
+
+.input-box{
+display: flex;
+width: 100%;
+}
+
+
+
+.input-box span{
+display: flex;
+transform: translateX(-60px);
+}
+
+.search-btn{
+border: none;
+background: transparent;
+padding: unset;
+cursor: pointer;
+}
+
+.input-box img{
+height: 30px;
+}
+             .question-box{
+                display: grid;
+    padding: 2rem;
+             }      
+
+             @media(max-width:1400px){
+                .rental-estimate-flex{
+                    flex-direction: column;
+                }
+             }
+@media(max-width:768px){
+    .sec-navlinks a{
+    font-size: 11px;
+    }
+    
+    .sec-nav-logo img{
+        height: 20px;
+    }
+
+    .flex-img{
+        height: 150px;
+    }
+    }
+    
+    @media(max-width:375px){
+    .sec-navlinks{  font-size: 8px;
+    }
+    }

@@ -1,0 +1,114 @@
+.buildbus{
+text-align:center;
+margin: 30px auto;
+border-bottom: solid blue 1px;
+}
+
+.buildbus h1{
+font-size: 30px;
+}
+
+.buildbus p{
+font-size: 17px;
+}
+
+.industryselect{
+text-align: center;
+}
+
+.industryselect h1{
+font-weight: 100;
+}
+
+.advertise-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+gap: 8rem;
+max-width: 1400px;
+margin: auto;
+padding-bottom: 2rem;
+}
+
+.advertise-card{
+width: 400px;
+margin: auto;
+}
+
+.advertise-card-img{
+background: url("../../assets/img/adver-home1.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-card-img1{
+background: url("../../assets/img/broker.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-card-img2{
+background: url("../../assets/img/contractor.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-card-img3{
+background: url("../../assets/img/loan.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-card-img4{
+background: url("../../assets/img/landlord.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-card-img5{
+background: url("../../assets/img/advertisers.jpg");
+background-size: cover;
+background-position: center ;
+background-repeat: no-repeat;
+width: 100%;
+height: 284px;
+}
+
+.advertise-title{
+display: grid;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+height: 80px;
+padding: 36px 0;
+}
+
+.advertise-btn{
+outline: none;
+border: none;
+background-color: #00aeff;
+width: 100%;
+height: 50px;
+color: #fff;
+cursor: pointer;
+border-radius: 6px;
+}
+
+#advertise-btn{
+text-decoration: none;
+margin: auto;
+width: 50%;
+}

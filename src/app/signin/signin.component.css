@@ -1,0 +1,148 @@
+
+    
+    .container{
+    display: grid;
+    background: url("../../assets/img/sign-bg.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    }
+    @media(max-width:500px){
+    .container{
+        /*background: url(#!);*/
+    }
+    .signinbox{
+      background-color: #273cf4 !important;
+      color: #fff;
+      width: 80%;
+    }
+    
+    .signbox-header a{
+        color: #fff;
+    }
+    }
+    
+    .signinbox{
+    margin: auto;
+  
+    padding: 2rem;
+    border-radius: 4px;
+    background: white;
+    }
+    
+    .signbox-header h1{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    }
+    
+    .signbox-header a{
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    }
+    
+    @media(max-width:375px){
+    .signbox-header h1{
+        font-size: 28px;
+    }
+    
+    .signinbox{
+        width: 290px !important;
+    }
+    
+    
+    }
+    
+    form{
+    display: grid;
+    }
+    
+    label{
+    margin-bottom: 3px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    }
+    
+    form input{
+    height:  30px;
+    border-radius: 8px;
+    border: 1px solid #A7A6AB;
+    outline: none;
+    margin-bottom: 20px;
+    }
+    
+    form input:hover{
+    border: #0a20e4 solid 1px;
+    }
+    
+    form hr{
+    width: 100%;
+    }
+    
+    #signinbtn{
+    background: linear-gradient(90deg, #07b9f5 35%, #00c8ff 100%);
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    }
+    
+    .forgotpword{
+    text-align: center;
+    }
+    
+    .forgotpword a{
+    text-decoration: none;
+    }
+    
+    form p{
+    text-align: center;
+    font-weight: 600;
+    }
+    
+    .applebtn button{
+    background-color: #000;
+    color: #fff;
+    border-width: 0;
+    height: 38px;
+    width: 100%;
+    border-radius: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    }
+    .googlebtn button{
+        background-color: #fff;
+        color: #000;
+    border-width: 0;
+    height: 38px;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    
+    }
+    .facebtn button{
+    background-color: #1802ff;
+    color: #fff;
+    border-width: 0;
+    height: 38px;
+    width: 100%;
+    border-radius: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    
+    }
